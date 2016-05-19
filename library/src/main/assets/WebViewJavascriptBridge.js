@@ -8,7 +8,7 @@
 
     var messagingIframe;
     var sendMessageQueue = [];
-    var receiveMessageQueue = [];
+    var receiveMessageQueue = null;
     var messageHandlers = {};
 
     var CUSTOM_PROTOCOL_SCHEME = 'yy';
